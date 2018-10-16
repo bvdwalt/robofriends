@@ -12,10 +12,13 @@ const CardList = ({ robots }) => {
               id={robots[i].id}
               name={robots[i].name}
               email={robots[i].email}
-              />
+            />
           );
         })
       }
+      <div className='footer'>
+        <p>Robots lovingly delivered by Robohash.org</p>
+      </div>
     </div>
   );
 }

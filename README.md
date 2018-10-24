@@ -1,5 +1,6 @@
-# robofriends
 [![Build Status](https://travis-ci.com/bvdwalt/robofriends.svg?branch=master)](https://travis-ci.com/bvdwalt/robofriends)
+
+# robofriends
 Following along with tutorial for udemy course - React
 To run the project:
 

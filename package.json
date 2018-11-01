@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://bvdwalt.github.io/robofriends/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",

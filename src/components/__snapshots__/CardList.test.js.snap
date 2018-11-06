@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Card List Component Expect to render Card List component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CardList
+    robots={
+      Array [
+        Object {
+          "email": "john@test.com",
+          "id": 1,
+          "name": "John Snow",
+          "username": "jsnow",
+        },
+        Object {
+          "email": "johnDoe@test.com",
+          "id": 2,
+          "name": "John Doe",
+          "username": "jdoe",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        Array [
+          <Card
+            email="john@test.com"
+            id={1}
+            name="John Snow"
+          />,
+          <Card
+            email="johnDoe@test.com"
+            id={2}
+            name="John Doe"
+          />,
+        ],
+        <div
+          className="footer"
+        >
+          <p>
+            Robots lovingly delivered by Robohash.org
+          </p>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "function",
+        "props": Object {
+          "email": "john@test.com",
+          "id": 1,
+          "name": "John Snow",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "email": "johnDoe@test.com",
+          "id": 2,
+          "name": "John Doe",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p>
+            Robots lovingly delivered by Robohash.org
+          </p>,
+          "className": "footer",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Robots lovingly delivered by Robohash.org",
+          },
+          "ref": null,
+          "rendered": "Robots lovingly delivered by Robohash.org",
+          "type": "p",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          Array [
+            <Card
+              email="john@test.com"
+              id={1}
+              name="John Snow"
+            />,
+            <Card
+              email="johnDoe@test.com"
+              id={2}
+              name="John Doe"
+            />,
+          ],
+          <div
+            className="footer"
+          >
+            <p>
+              Robots lovingly delivered by Robohash.org
+            </p>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "email": "john@test.com",
+            "id": 1,
+            "name": "John Snow",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "email": "johnDoe@test.com",
+            "id": 2,
+            "name": "John Doe",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p>
+              Robots lovingly delivered by Robohash.org
+            </p>,
+            "className": "footer",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Robots lovingly delivered by Robohash.org",
+            },
+            "ref": null,
+            "rendered": "Robots lovingly delivered by Robohash.org",
+            "type": "p",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
